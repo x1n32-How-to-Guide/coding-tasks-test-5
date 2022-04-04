@@ -40,7 +40,7 @@ public class Calculator2 extends Calculator{
      * Hint: Math.sqrt(X)
      */
     public double squareRootAnswer(float squareOfB, float fourAC){
-        return Math.sqrt(squareOfB + fourAC);
+        return Math.sqrt(squareOfB - fourAC);
     }
 
     /**
