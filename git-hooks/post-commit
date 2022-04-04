@@ -83,42 +83,48 @@ file.close()
 print("check",checkbox1,checkbox2,checkbox3,checkbox4,checkbox5,checkbox6)
 #Append to file:
 file = open("Task1.md", "r")
-newFile2 = ""
+newFile = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
     if (checkbox1 == True):
         changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
-        newFile2 = newFile2 + changeline + "\n"
+        newFile = newFile + changeline + "\n"
+        checkbox1 = false
 
     if (checkbox2 == True):
         changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
-        newFile2 = newFile2 + changeline + "\n"
+        newFile = newFile + changeline + "\n"
+        checkbox2 = false
 
     if (checkbox3 == True):
         changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
-        newFile2 = newFile2 + changeline + "\n"
+        newFile = newFile + changeline + "\n"
+        checkbox3 = false
 
     if (checkbox4 == True):
         changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
-        newFile2 = newFile2 + changeline + "\n"
+        newFile = newFile + changeline + "\n"
+        checkbox4 = false
 
     if (checkbox5 == True):
         changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
-        newFile2 = newFile2 + changeline + "\n"
+        newFile = newFile + changeline + "\n"
+        checkbox5 = false
 
     if (checkbox6 == True):
         changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
-        newFile2 = newFile2 + changeline + "\n"
+        newFile = newFile + changeline + "\n"
+        checkbox6 = false
 
     else:
-        newFile2 = newFile2 + line + "\n"
+        newFile = newFile + line + "\n"
     
 file.close()
 
 #Write to file 
 fout = open("Task1.md", "w")
-fout.write(newFile2)
+fout.write(newFile)
 fout.close()
 
 #--------------------------------------------------------------
