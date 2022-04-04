@@ -112,9 +112,6 @@ for line in file:
 
     else:
         newFile = newFile + line + "\n"
-
-    else:
-        newFile = newFile + line + "\n"
     
 file.close()
 
