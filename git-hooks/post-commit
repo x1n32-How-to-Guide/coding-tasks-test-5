@@ -115,7 +115,7 @@ for line in file:
     if (checkbox6 == True):
         changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
         newFile = newFile + changeline + "\n"
-        checkbox6 = false
+        checkbox6 = False
 
     else:
         newFile = newFile + line + "\n"
