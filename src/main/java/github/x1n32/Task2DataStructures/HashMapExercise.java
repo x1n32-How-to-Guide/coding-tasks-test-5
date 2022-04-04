@@ -1,6 +1,4 @@
 package github.x1n32.Task2DataStructures;
-
-
 import java.util.HashMap;
 
 
@@ -57,7 +55,15 @@ public class HashMapExercise {
         //CHALLENGE: Loop through the hash map for empty values (descriptions) and replace it with "Unknown Description"
         for (String i : hMap.keySet()) {
 
-            System.out.println("Make this replace empty values to Unknown Description. " + i);
+            if (hMap.get(i) == " "|| hMap.get(i) == null){
+                
+                hMap.put(i, "Unknown Description");
+            }
+         
+
+            //To check for empty " " and null values, use the boolean OR operator
+            // statement A == x || statement b == y
+            //Is the same as if A OR B is true. 
         }
 
     }
@@ -67,11 +73,12 @@ public class HashMapExercise {
 
         //Create new Hash map here called 'name' and uncomment the code below.
 
+        HashMap<Integer, String> name = new HashMap<>();
 
 
-//        name.put(0,"Abby"); //Don't change these.
-  //      name.put(1,"Becky");
-        return null ; //Make it return Abby
+        name.put(0,"Abby"); //Don't change these.
+        name.put(1,"Becky");
+        return(name.get(0)); //Make it return Abby
 
     }
 
