@@ -72,8 +72,8 @@ System.out.println(myNum.get(3));
 # HashMapExercise.java Steps:
 - Read the code and leave a comment on what you think it does
 - Check your guesses by running the code.
-- [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description'
-- [ ] Challenge 1.2: Now make it so that it does the same for null values
+- [x] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description'
+- [x] Challenge 1.2: Now make it so that it does the same for null values
 
 - [x] Challenge 2: Comment out the code in createNewHashMap and create a new hashmap; Make the method return "Abby".
 
