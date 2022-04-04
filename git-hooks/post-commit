@@ -88,7 +88,7 @@ newFile = ""
 for line in file:
     line = line.strip()
     if '- [ ] Fix squareOfB' in line:
-        if (checkbox1 == True)
+        if (checkbox1 == True):
             changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
             newFile = newFile + changeline + "\n"
         
@@ -111,7 +111,7 @@ for line in file:
         if (checkbox5 == True):
             changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
             newFile = newFile + changeline + "\n"
-            
+
     if '- [ ] Using all the functions' in line:
         if (checkbox6 == True):
             changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
