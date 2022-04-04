@@ -90,27 +90,27 @@ for line in file:
     if (checkbox1 == True):
         changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
         newFile = newFile + changeline + "\n"
-        checkbox1 = false
+        checkbox1 = False
 
     if (checkbox2 == True):
         changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
         newFile = newFile + changeline + "\n"
-        checkbox2 = false
+        checkbox2 = False
 
     if (checkbox3 == True):
         changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
         newFile = newFile + changeline + "\n"
-        checkbox3 = false
+        checkbox3 = False
 
     if (checkbox4 == True):
         changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
         newFile = newFile + changeline + "\n"
-        checkbox4 = false
+        checkbox4 = False
 
     if (checkbox5 == True):
         changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
         newFile = newFile + changeline + "\n"
-        checkbox5 = false
+        checkbox5 = False
 
     if (checkbox6 == True):
         changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")

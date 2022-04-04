@@ -56,7 +56,7 @@ System.out.println(10 + 10);
 - This code is mostly finished, but contains a bug.
 - Try running the code (Press F5)
 - Now go to Calculator 1 Status and click the link to see the report. Can you see the error?
-- [ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
+- [x] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
 - Now type **'submit'** into the console of GitPod
 - Reload the status page. Any differences?
 - NOTE: The page may take a while to update before you notice anything.
