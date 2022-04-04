@@ -97,6 +97,10 @@ for line in file:
             changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
             newFile = newFile + changeline + "\n"
 
+    if '- [ ] Fix squareRootAnswer' in line:
+        if (checkbox3 == True):
+            changeline = line.replace("- [ ] Fix squareRootAnswer", "- [x] Fix squareRootAnswer")
+            newFile = newFile + changeline + "\n"
 
     else:
         newFile = newFile + line + "\n"
