@@ -92,30 +92,7 @@ for line in file:
             changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
             newFile = newFile + changeline + "\n"
         
-    if '- [ ] Fix fourAC' in line:
-        if (checkbox2 == True):       
-            changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
-            newFile = newFile + changeline + "\n"
 
-    if '- [ ] Fix squareRootAnswer' in line:
-        if (checkbox3 == True):
-            changeline = line.replace("- [ ] Fix squareRootAnswer", "- [x] Fix squareRootAnswer")
-            newFile = newFile + changeline + "\n"
-
-    if '- [ ] Fix positive answer' in line:
-        if (checkbox4 == True):
-            changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
-            newFile = newFile + changeline + "\n"
-
-    if '- [ ] Now do the' in line:
-        if (checkbox5 == True):
-            changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
-            newFile = newFile + changeline + "\n"
-
-    if '- [ ] Using all the functions' in line:
-        if (checkbox6 == True):
-            changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
-            newFile = newFile + changeline + "\n"
 
     else:
         newFile = newFile + line + "\n"
