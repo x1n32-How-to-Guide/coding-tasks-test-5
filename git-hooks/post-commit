@@ -91,6 +91,7 @@ for line in file:
         if (checkbox1 == True):
             changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
             newFile = newFile + changeline + "\n"
+            checkbox1 = False
         
     if '- [ ] Fix fourAC' in line:
         if (checkbox2 == True):       
