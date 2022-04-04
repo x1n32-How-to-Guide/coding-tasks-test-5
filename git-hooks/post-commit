@@ -97,6 +97,7 @@ for line in file:
         if (checkbox2 == True):       
             changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
             newFile = newFile + changeline + "\n"
+            checkbox2 = False
 
 
     else:
