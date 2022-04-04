@@ -22,7 +22,7 @@ public class Calculator2 extends Calculator{
      *  Which is b * b
      */
     public float squareOfB(float b){
-        return 0; // Change 0 to: b * b
+        return b*b; // Change 0 to: b * b
     }
 
     /**
@@ -31,7 +31,7 @@ public class Calculator2 extends Calculator{
      * Which is 4 * a * c
      */
     public float fourAC(float a, float c){
-        return 0;
+        return 4*a*c;
     }
   
     /**
@@ -40,7 +40,7 @@ public class Calculator2 extends Calculator{
      * Hint: Math.sqrt(X)
      */
     public double squareRootAnswer(float squareOfB, float fourAC){
-        return 0;
+        return Math.sqrt(squareOfB + fourAC);
     }
 
     /**
@@ -54,13 +54,13 @@ public class Calculator2 extends Calculator{
         //Remove the // below and reorder the code to make it work:
 
 
-        // return positiveAns;
-        //double sqr = squareRootAnswer(square, fourac); //Takes values square and 4ac to be square rooted. They need to be initialised first in order for this to be used.
-        //float square = squareOfB(b);                   //Initialising the variable square with the value of b * b
-        //float fourac = fourAC(a, c);                   //Initialising the variable fourac with the value of 4 * a * c
-        //double positiveAns = (-b + sqr) /(2*a);        //Requires the value sqr to computer the answer.
-        
-        return 0; //DELETE THIS LINE
+        float square = squareOfB(b);                   //Initialising the variable square with the value of b * b
+        float fourac = fourAC(a, c);                   //Initialising the variable fourac with the value of 4 * a * c
+        double sqr = squareRootAnswer(square, fourac); //Takes values square and 4ac to be square rooted. They need to be initialised first in order for this to be used.
+
+        double positiveAns = (-b + sqr) /(2*a);        //Requires the value sqr to computer the answer.
+        return positiveAns;
+
     }
 
     /**
@@ -71,14 +71,14 @@ public class Calculator2 extends Calculator{
         //All the code you need is here, but with some values missing
         //Look at positive answer if you are struggling
 
-        //float square = squareOfB(_);
-        //float fourac = fourAC(a, c);
-        //double sqr = squareRootAnswer(______, fourac);
-        //double negativeAns = (________) /(2*a);
-        //return negativeAns;
+        float square = squareOfB(b);
+        float fourac = fourAC(a, c);
+        double sqr = squareRootAnswer(square, fourac);
+        double negativeAns = (-b - sqr) /(2*a);
+        return negativeAns;
 
     
-        return 0; //DELETE THIS LINE
+    
     }
 
 
@@ -87,8 +87,8 @@ public class Calculator2 extends Calculator{
      */
     public void quadraticFormula(float a, float b, float c) {
         //Replace ___ with the right function below to call the positive and negative answer.
-      //  System.out.println(______________(a, b, c)); 
-      //  System.out.println(______________(a, b, c));
+        System.out.println(positiveAnswer(a, b, c)); 
+        System.out.println(negativeAnswer(a, b, c));
 	}
 
     
