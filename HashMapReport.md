@@ -7,14 +7,10 @@
  <br/><br> 
 ==================
 <br>
-### 2022/04/04 11:32:09 
+### 2022/04/04 11:41:14 
  <br>
  - 2nd Test: Changing value/description (new Description) WORKS! 
- - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. If you haven't started this task, ignore this message. 
-   Otherwise, did you check you recieved the right input? Are you searching values correctly? 
-   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. 
-   Make sure you set the description to be the same as what the task requires. 
-org.opentest4j.AssertionFailedError: expected: <Unknown Description> but was: <>
+ - Challenge 1: Replacing empty values(find and replace empty value method) WORKS! 
  - Getting value from a key (Item Description) WORKS! 
  - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for null values. If you haven't started this task, ignore this message. 
    Otherwise, did you check you recieved the right input? Are you searching values correctly? 
@@ -26,8 +22,7 @@ org.opentest4j.AssertionFailedError: expected: < - Unknown Description> but was:
  - Changing value/description (new Description) WORKS! 
 
  <br>
-For Hash Map Exercise, You have passed 1 out of 3 tests. 
+For Hash Map Exercise, You have passed 2 out of 3 tests. 
  <br>
-
-Have another go.
+Well done.
  <br>

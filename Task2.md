@@ -75,7 +75,7 @@ System.out.println(myNum.get(3));
 - [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description'
 - [ ] Challenge 1.2: Now make it so that it does the same for null values
 
-- [ ] Challenge 2: Comment out the code in createNewHashMap and create a new hashmap; Make the method return "Abby".
+- [x] Challenge 2: Comment out the code in createNewHashMap and create a new hashmap; Make the method return "Abby".
 
 # Hash Map Task status:<br/>
 [See report on Hash Map Task](HashMapReport.md)<br/>
