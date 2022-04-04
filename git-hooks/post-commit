@@ -80,6 +80,7 @@ for line in file:
         checkbox6 = True
 file.close()
 
+print("check",checkbox1,checkbox2,checkbox3,checkbox4,checkbox5,checkbox6)
 #Append to file:
 file = open("Task1.md", "r")
 newFile = ""

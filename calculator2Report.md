@@ -7,7 +7,7 @@
  <br/><br> 
 ==================
 <br>
-### 2022/04/04 10:57:47 
+### 2022/04/04 10:58:50 
  <br>
  - Positive answer of the quadraticFormula method: failed. 
 org.opentest4j.AssertionFailedError:  - This should return the square root of b^2 - 4ac. Can use Math.sqrt to square root the answer. ==> expected: <8.54400374531753> but was: <NaN>
