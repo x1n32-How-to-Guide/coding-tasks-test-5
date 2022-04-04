@@ -87,7 +87,7 @@ newFile = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
-    if (checkbox1 == True) and if '- [ ] Fix squareOfB' in line:
+    if (checkbox1 == True) and '- [ ] Fix squareOfB' in line:
             changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
             newFile = newFile + changeline + "\n"
         
