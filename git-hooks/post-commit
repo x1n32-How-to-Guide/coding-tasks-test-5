@@ -88,34 +88,34 @@ newFile = ""
 for line in file:
     line = line.strip()
     if (checkbox1 == True):
-        changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
-        newFile = newFile + changeline + "\n"
-        checkbox1 = False
-
+        if '- [ ] Fix squareOfB' in line:
+            changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
+            newFile = newFile + changeline + "\n"
+        
     if (checkbox2 == True):
-        changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
-        newFile = newFile + changeline + "\n"
-        checkbox2 = False
+        if '- [ ] Fix squareOfB' in line:
+            changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
+            newFile = newFile + changeline + "\n"
 
     if (checkbox3 == True):
-        changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
-        newFile = newFile + changeline + "\n"
-        checkbox3 = False
+        if '- [ ] Fix squareRootAnswer' in line:
+            changeline = line.replace("- [ ] Fix squareRootAnswer", "- [x] Fix squareRootAnswer")
+            newFile = newFile + changeline + "\n"
 
     if (checkbox4 == True):
-        changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
-        newFile = newFile + changeline + "\n"
-        checkbox4 = False
+        if '- [ ] Fix positive answer' in line:
+            changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
+            newFile = newFile + changeline + "\n"
 
     if (checkbox5 == True):
-        changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
-        newFile = newFile + changeline + "\n"
-        checkbox5 = False
+        if '- [ ] Now do the' in line:
+            changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
+            newFile = newFile + changeline + "\n"
 
     if (checkbox6 == True):
-        changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
-        newFile = newFile + changeline + "\n"
-        checkbox6 = False
+        if '- [ ] Using all the functions' in line:
+            changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
+            newFile = newFile + changeline + "\n"
 
     else:
         newFile = newFile + line + "\n"
